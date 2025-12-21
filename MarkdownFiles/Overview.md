@@ -3,7 +3,7 @@
 
 我有时喜欢一个人静静地思考~~或者说胡思乱想~~，想的内容范围比较广泛，有时天马行空，有时切合实际，但都如过眼烟云稍纵即逝。2023 年 12 月 2 日，我突然觉得有必要做一点记录，在这个世界上留下一点痕迹。2024 年 2 月 16 日，发现了屏蔽词“政$ $府”。[$\small\color{#FFF}{\mathtt{Unshown Part}}$](https://www.luogu.com.cn/article/znd56fbc)
 
-### 关于[《幻想project》](Fantasy.md)...
+### 关于[《幻想project》](https://www.luogu.com.cn/blog/guan-xing-ge/fantasy-world)...
 
 这一部分容纳幻想中的东西，比如梦或是单纯的想象。为了与现实进行区分，此部分并不出现于[《星辰project》](https://www.luogu.com.cn/blog/guan-xing-ge/stars-during-lifetime)而只出现于[《幻想project》](https://www.luogu.com.cn/blog/guan-xing-ge/fantasy-world)。
 
@@ -89,6 +89,8 @@
 为了在学校里也能坚持写作，我利用吴永皓给我的笔记本写随笔，也就形成了[《星辰project》]()的手稿。临近高考时，我把该笔记本交由[*她*](https://www.luogu.com.cn/blog/guan-xing-ge/Mona-Lisa)代我保管，这是我心目中最理想的保管方式。
 
 为了备份此项目，现开放手写版图片和电子版 markdown 源码的[下载](https://www.luogu.com.cn/article/dlr91w1j)。
+
+2025 年 12 月 21 日，上传到 [github](https://github.com/zoomy14112/StarProject) 以便于管理。
 
 ## 与时偕行
 
