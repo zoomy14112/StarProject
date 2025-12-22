@@ -1,5 +1,6 @@
 目前进度：
 
+- Fantasy : To be continued.
 - Part 1 : OK!
 - Part 2 : OK!
 - Part 3 : OK!
