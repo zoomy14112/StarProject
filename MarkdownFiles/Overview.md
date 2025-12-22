@@ -1,7 +1,9 @@
 ## 时间之外
 ### 关于[《星辰project》](https://www.luogu.com.cn/blog/guan-xing-ge/stars-during-lifetime)...
 
-我有时喜欢一个人静静地思考~~或者说胡思乱想~~，想的内容范围比较广泛，有时天马行空，有时切合实际，但都如过眼烟云稍纵即逝。2023 年 12 月 2 日，我突然觉得有必要做一点记录，在这个世界上留下一点痕迹。2024 年 2 月 16 日，发现了屏蔽词“政$ $府”。
+我有时喜欢一个人静静地思考~~或者说胡思乱想~~，想的内容范围比较广泛，有时天马行空，有时切合实际，但都如过眼烟云稍纵即逝。2023 年 12 月 2 日，我突然觉得有必要做一点记录，在这个世界上留下一点痕迹，故有了[《星辰project》](https://www.luogu.com.cn/blog/guan-xing-ge/stars-during-lifetime)。
+
+2025 年 12 月 19 日，出于相似的原因，我选择重启这个渐渐尘封的项目。在新阶段里，我不仅写新东西，还会对原有的篇章进行补全和添加批语。
 
 ### 关于[《幻想project》](https://www.luogu.com.cn/blog/guan-xing-ge/fantasy-world)...
 
@@ -117,7 +119,8 @@
 
 ### 余音飘渺
 
-- 2024.06 $\sim$ 2025.08 *[Part 7](https://www.luogu.com.cn/article/cvmhecql)* ([Part 7.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%207.md) in GitHub)
+- 2024.06 $\sim$​ 2025.08 *[Part 7](https://www.luogu.com.cn/article/cvmhecql)* ([Part 7.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%207.md) in GitHub)
+- 2025.09 $\sim$ 2025.11 XCPC TIME
 
 ### 终章尚未到来
 
