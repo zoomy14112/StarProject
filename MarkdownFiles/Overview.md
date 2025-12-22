@@ -1,11 +1,13 @@
 ## 时间之外
 ### 关于[《星辰project》](https://www.luogu.com.cn/blog/guan-xing-ge/stars-during-lifetime)...
 
-我有时喜欢一个人静静地思考~~或者说胡思乱想~~，想的内容范围比较广泛，有时天马行空，有时切合实际，但都如过眼烟云稍纵即逝。2023 年 12 月 2 日，我突然觉得有必要做一点记录，在这个世界上留下一点痕迹。2024 年 2 月 16 日，发现了屏蔽词“政$ $府”。[$\small\color{#FFF}{\mathtt{Unshown Part}}$](https://www.luogu.com.cn/article/znd56fbc)
+我有时喜欢一个人静静地思考~~或者说胡思乱想~~，想的内容范围比较广泛，有时天马行空，有时切合实际，但都如过眼烟云稍纵即逝。2023 年 12 月 2 日，我突然觉得有必要做一点记录，在这个世界上留下一点痕迹。2024 年 2 月 16 日，发现了屏蔽词“政$ $府”。
 
 ### 关于[《幻想project》](https://www.luogu.com.cn/blog/guan-xing-ge/fantasy-world)...
 
 这一部分容纳幻想中的东西，比如梦或是单纯的想象。为了与现实进行区分，此部分并不出现于[《星辰project》](https://www.luogu.com.cn/blog/guan-xing-ge/stars-during-lifetime)而只出现于[《幻想project》](https://www.luogu.com.cn/blog/guan-xing-ge/fantasy-world)。
+
+在 GitHub 上，命名为 [Fantasy.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Fantasy.md)。
 
 ### 关于《泰勒玛》...
 
@@ -13,13 +15,19 @@
 
 提纲和第一分论点完成于 2023 年 10 月 2 日，其后由于准备比赛暂时搁置。2023 年 12 月 3 日，完成第二分论点。2023 年 12 月 16 日，完成第三分论点，此时全文结束，并于结束后补充 ChatGPT 的理解。
 
+在 GitHub 上，命名为 [Thelema 1.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Thelema%201.md)。
+
 #### 关于[《为汝所欲为即为汝之法》](https://www.luogu.com.cn/blog/guan-xing-ge/do-what-you-want)...
 
 前两个分论点利用自由自习时间写成，第三个分论点完成于 2023 年 9 月 30 日。2023 年 12 月 3 日，试图将此文发布到博客上作为备份，因包含“游$ $行”这一屏蔽词反复发布失败，后~~使用一些手段~~规避屏蔽词。2023 年 12 月 16 日，补充 ChatGPT 的理解。
 
+在 GitHub 上，命名为 [Thelema 2.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Thelema%202.md)。
+
 #### 关于[《爱是为法，亦以意志之力所控》](https://www.luogu.com.cn/blog/guan-xing-ge/love-under-will)...
 
 提纲完成于 2024 年 4 月 27 日。何时完工？遥遥无期。
+
+在 GitHub 上，命名为 [Thelema 3.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Thelema%203.md)。
 
 ### 关于[《三段谋略》](https://www.luogu.com.cn/blog/guan-xing-ge/organize-the-future)...
 
@@ -29,15 +37,19 @@
 
 应“冰心文学奖”征文要求，我突发奇想要写现代诗，遂成此篇。手稿完成时间大抵是 2023 年 3 月，博客发布于 2023 年 12 月 3 日。
 
+在 GitHub 上，命名为 [ForLogic.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/ForLogic.md)。
+
 ### 关于[《涅槃》](https://www.luogu.com.cn/blog/guan-xing-ge/restart)...
 
 全文完成于 2024 年 1 月 1 日，直接在博客~~或者说是专栏~~上发布。此时“语文报杯”的征文要求的主题是“传承”，校内征文要求的题材是科幻，于是我将其进行~~有机~~融合，写了一篇主题为“传承”的科幻小说。现已发表于校刊《知行》。
+
+在 GitHub 上，命名为 [Nirvana.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Nirvana.md)。
 
 ### 关于[洛谷](https://www.luogu.com.cn)...
 
 毕竟是使用了接近 5 年的一个平台，我在洛谷上面做了 800 多道题，十分信任它的稳定性；而且可以便捷地使用 $\small\TeX$ 的 $\small\LaTeX$ 和 **Markdown** 进行格式化，增强表达效果，~~从而让自己看着更顺眼~~。
 
-#### 题解收录：
+#### 题解：
 - [ABC340F](https://www.luogu.com.cn/problem/AT_abc340_f) [solution](https://www.luogu.com.cn/blog/guan-xing-ge/solution-abc340f)
 - [Atcoder Beginner Contest 340](https://atcoder.jp/contests/abc340) [solution](https://www.luogu.com.cn/blog/guan-xing-ge/solution-abc340)
 - [Atcoder Beginner Contest 339](https://atcoder.jp/contests/abc339) [solution](https://www.luogu.com.cn/blog/guan-xing-ge/solution-abc339)
@@ -88,30 +100,26 @@
 
 为了在学校里也能坚持写作，我利用吴永皓给我的笔记本写随笔，也就形成了[《星辰project》]()的手稿。临近高考时，我把该笔记本交由[*她*](https://www.luogu.com.cn/blog/guan-xing-ge/Mona-Lisa)代我保管，这是我心目中最理想的保管方式。
 
-为了备份此项目，现开放手写版图片和电子版 markdown 源码的[下载](https://www.luogu.com.cn/article/dlr91w1j)。
+为了备份此项目，现开放手写版图片和电子版 markdown 源码的[下载](https://www.luogu.com.cn/article/dlr91w1j)（ [Download .md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Download.md) in GitHub）。
 
-2025 年 12 月 21 日，上传到 [github](https://github.com/zoomy14112/StarProject) 以便于管理。
+2025 年 12 月 21 日，上传到 [GitHub](https://github.com/zoomy14112/StarProject) 以便于管理。
 
 ## 与时偕行
 
-### 于离别的黄昏之前
+### 在那黄昏之前
 
-- 2023.12 *[Part 1](https://www.luogu.com.cn/article/wnza99db)*
-- 2024.01 *[Part 2](https://www.luogu.com.cn/article/xjw19p9b)*
-- 2024.02 *[Part 3](https://www.luogu.com.cn/article/m9z8anyb)*
-- 2024.03 *[Part 4](https://www.luogu.com.cn/article/i94tto58)*
-- 2024.04 *[Part 5](https://www.luogu.com.cn/article/hy9njfa8)*
-- 2024.05 *[Part 6](https://www.luogu.com.cn/article/13uvxvtn)*
+- 2023.12 *[Part 1](https://www.luogu.com.cn/article/wnza99db)* ([Part 1.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%201.md) in GitHub)
+- 2024.01 *[Part 2](https://www.luogu.com.cn/article/xjw19p9b)* ([Part 2.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%202.md) in GitHub)
+- 2024.02 *[Part 3](https://www.luogu.com.cn/article/m9z8anyb)* ([Part 3.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%203.md) in GitHub)
+- 2024.03 *[Part 4](https://www.luogu.com.cn/article/i94tto58)* ([Part 4.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%204.md) in GitHub)
+- 2024.04 *[Part 5](https://www.luogu.com.cn/article/hy9njfa8)* ([Part 5.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%205.md) in GitHub)
+- 2024.05 *[Part 6](https://www.luogu.com.cn/article/13uvxvtn)* ([Part 6.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%206.md) in GitHub)
 
 ### 余音飘渺
 
-- 2024.06 ~ 2024.08 *[Part 7](https://www.luogu.com.cn/article/cvmhecql)*
+- 2024.06 $\sim$ 2025.08 *[Part 7](https://www.luogu.com.cn/article/cvmhecql)* ([Part 7.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%207.md) in GitHub)
 
-### 停滞
+### 终章尚未到来
 
-- 2024.09 ~ 2025.09 [_Part 8_](https://www.luogu.com.cn/article/3x9iapd8)
-
-### 重启：终章尚未到来
-
-- 2025.12 ~ ????.?? [Restart](https://www.luogu.com.cn/article/f96y1qug)
+- 2025.12 $\sim$ ？？？？ *[Restart 1](https://www.luogu.com.cn/article/f96y1qug)* ([Restart 1.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Restart%201.md) in GitHub)
 
