@@ -7,5 +7,5 @@
 - Part 4 : OK!
 - Part 5 : Under construction.
 - Part 6 : Under construction.
-- Part 7 : Semi-finished.
+- Part 7 : OK!
 - Restart 1 : To be continued.

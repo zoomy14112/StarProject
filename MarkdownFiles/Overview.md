@@ -120,9 +120,9 @@
 ### 余音飘渺
 
 - 2024.06 $\sim$​ 2025.08 *[Part 7](https://www.luogu.com.cn/article/cvmhecql)* ([Part 7.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%207.md) in GitHub)
-- 2025.09 $\sim$ 2025.11 XCPC TIME
+- 2025.09 $\sim$ 2025.11 XCPC TIME with [kzos](https://www.luogu.com.cn/user/295534) and [guuu_](https://www.luogu.com.cn/user/123530)
 
 ### 终章尚未到来
 
-- 2025.12 $\sim$ ？？？？ *[Restart 1](https://www.luogu.com.cn/article/f96y1qug)* ([Restart 1.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Restart%201.md) in GitHub)
+- 2025.12 $\sim$ ？？？ *[Restart 1](https://www.luogu.com.cn/article/f96y1qug)* ([Restart 1.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Restart%201.md) in GitHub)
 
