@@ -21,19 +21,15 @@
 
 #### 关于[《为汝所欲为即为汝之法》](https://www.luogu.com.cn/blog/guan-xing-ge/do-what-you-want)...
 
-前两个分论点利用自由自习时间写成，第三个分论点完成于 2023 年 9 月 30 日。2023 年 12 月 3 日，试图将此文发布到博客上作为备份，因包含“游$ $行”这一屏蔽词反复发布失败，后~~使用一些手段~~规避屏蔽词。2023 年 12 月 16 日，补充 ChatGPT 的理解。
+前两个分论点利用自由自习时间写成，第三个分论点完成于 2023 年 9 月 30 日。2023 年 12 月 3 日，试图将此文发布到博客上作为备份，因包含“游行”这一屏蔽词反复发布失败，后~~使用一些手段~~规避屏蔽词。2023 年 12 月 16 日，补充 ChatGPT 的理解。
 
 在 GitHub 上，命名为 [Thelema 2.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Thelema%202.md)。
 
-#### 关于[《爱是为法，亦以意志之力所控》](https://www.luogu.com.cn/blog/guan-xing-ge/love-under-will)...
+#### 关于[《爱是为法亦以意志之力所控》](https://www.luogu.com.cn/blog/guan-xing-ge/love-under-will)...
 
 提纲完成于 2024 年 4 月 27 日。何时完工？遥遥无期。
 
 在 GitHub 上，命名为 [Thelema 3.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Thelema%203.md)。
-
-### 关于[《三段谋略》](https://www.luogu.com.cn/blog/guan-xing-ge/organize-the-future)...
-
-此部分为对未来方向的规划，有大致的三个方向，故命名为“三段谋略”。其“上策”过于理想化，其“下策”过于感性化，故现实的走向大概率接近“中策”，虽不是我最希望的却是最符合发展趋势的。
 
 ### 关于[《星海横流》](https://www.luogu.com.cn/blog/guan-xing-ge/in-honor-of-Logic)...
 
@@ -47,9 +43,13 @@
 
 在 GitHub 上，命名为 [Nirvana.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Nirvana.md)。
 
+### 关于[《三段谋略》](https://www.luogu.com.cn/blog/guan-xing-ge/organize-the-future)...
+
+此部分为对未来方向的规划，有大致的三个方向，故命名为“三段谋略”。其“上策”过于理想化，其“下策”过于感性化，故现实的走向大概率接近“中策”，虽不是我最希望的却是最符合发展趋势的。
+
 ### 关于[洛谷](https://www.luogu.com.cn)...
 
-毕竟是使用了接近 5 年的一个平台，我在洛谷上面做了 800 多道题，十分信任它的稳定性；而且可以便捷地使用 $\small\TeX$ 的 $\small\LaTeX$ 和 **Markdown** 进行格式化，增强表达效果，~~从而让自己看着更顺眼~~。
+毕竟是使用了接近 5 年的一个平台，我在洛谷上面做了 800 多道题，十分信任它的稳定性；而且可以便捷地使用 $\small\TeX$ 的 $\small\LaTeX$ 和 **Markdown** 进行格式化，增强表达效果~~，从而让自己看着更顺眼~~。
 
 #### 题解：
 - [ABC340F](https://www.luogu.com.cn/problem/AT_abc340_f) [solution](https://www.luogu.com.cn/blog/guan-xing-ge/solution-abc340f)
@@ -94,7 +94,7 @@
 - 回首望处，万般皆空。
 - 没有相应代价的规定等同于不存在。
 - 人生就像调用一次 `rand()`，而你永远也不会知道 `RAND_MAX` 是多少。
-- 当你开始计较投入与产出，你就失去了那份最纯粹的热爱。
+- 当你开始斤斤计较投入与产出，你就失去了那份最纯粹的热爱。
 - 人生来并不背负原罪，每个人都有为自己而活的权利。
 - 往事终将被时间埋藏，锈蚀成无法辨识的模样。
 
@@ -104,7 +104,7 @@
 
 为了备份此项目，现开放手写版图片和电子版 markdown 源码的[下载](https://www.luogu.com.cn/article/dlr91w1j)（ [Download .md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Download.md) in GitHub）。
 
-2025 年 12 月 21 日，上传到 [GitHub](https://github.com/zoomy14112/StarProject) 以便于管理。
+2025 年 12 月 21 日，上传到 [GitHub](https://github.com/zoomy14112/StarProject) 以便于管理，此后以 GitHub 作为主发布平台。
 
 ## 与时偕行
 
@@ -120,7 +120,7 @@
 ### 余音飘渺
 
 - 2024.06 $\sim$​ 2025.08 *[Part 7](https://www.luogu.com.cn/article/cvmhecql)* ([Part 7.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Part%207.md) in GitHub)
-- 2025.09 $\sim$ 2025.11 XCPC TIME with [kzos](https://www.luogu.com.cn/user/295534) and [guuu_](https://www.luogu.com.cn/user/123530)
+- 2025.09 $\sim$ 2025.11 XCPC TIME with [kzos](https://www.luogu.com.cn/user/295534) and [guuu\_](https://www.luogu.com.cn/user/123530)
 
 ### 终章尚未到来
 

@@ -14,7 +14,7 @@
 #### 杂感随记
 
 ### 2024.5.9
-#### 开始[月相记录](https://www.luogu.com.cn/article/h2bzfw1d)
+#### [月相记录](https://www.luogu.com.cn/article/h2bzfw1d)
 
 若非意外，之后应当天天记录月相，直到农历四月结束。若晴天则记录月相，若阴雨则记录天气。
 
