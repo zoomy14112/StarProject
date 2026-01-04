@@ -39,7 +39,7 @@
 
 应“冰心文学奖”征文要求，我突发奇想要写现代诗，遂成此篇。手稿完成时间大抵是 2023 年 3 月，博客发布于 2023 年 12 月 3 日。
 
-在 GitHub 上，命名为 [ForLogic.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/ForLogic.md)。
+在 GitHub 上，命名为 [For Logic.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/For%20Logic.md)。
 
 ### 关于[《涅槃》](https://www.luogu.com.cn/blog/guan-xing-ge/restart)...
 

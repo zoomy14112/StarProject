@@ -15,9 +15,13 @@
 - Thelema 1 : ok!
 - Thelema 2 : ok!
 - Thelema 3 : ok!
-- ForLogic : ok!
+- For Logic : ok!
 - Nirvana : ok!
 
 ### To Do List
 
 - 天命既定
+- ”围城“之困：“人生何处是归程，围城接围城。” `<p align="right">她的 QQ 空间，2016 年 10 月 30 日</p>`
+- 离别
+- 告白（Fantasy）
+- Remote Clipboard
