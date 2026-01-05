@@ -84,7 +84,7 @@
 
 [**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)非常可爱，这份可爱不仅体现在[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)的外貌上，更体现在[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)的气质上，[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)那一颦一笑间透露出的恬静与温柔。我本无法形容这种印象，直到读到《洛神赋》，脑海中对洛水之神的想象与[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)的身影交叠，这才令我意识到中国古代美人究竟有什么魅力。
 
-[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)的感情非常充沛、饱满，~~我实在无法想出如何描述~~。[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)会因很小的一件事共情，从而在课堂上哽咽；[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)在备课与授课中投入极大热情，想尽一切方法帮助同学们的学业，却遭到现实的冰冷回击。
+[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)的感情非常充沛、饱满~~，我实在无法想出如何描述~~。[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)会因很小的一件事共情，从而在课堂上哽咽；[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)在备课与授课中投入极大热情，想尽一切方法帮助同学们的学业，却遭到现实的冰冷回击。
 
 [**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)具有极强的责任感，若非如此则无法解释[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)为何这样尽心尽力。[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)的责任感，作为教师的使命感，驱动[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)以无尽的热忱融入每一堂课。这样热烈的责任感，又何尝不是一种无私的爱呢？
 
@@ -127,7 +127,7 @@
 
 沿帝国大厦的东楼梯拾级而上，空旷的空间里回荡着踏上防滑条的嗒嗒声。化学实验室、生物实验室、物理实验室，接着是奥赛部；而我并未停留，继续向更高处攀登。五楼是所谓的“社团活动中心”，其实是半层空教室和半层独立的神秘区域；六楼则是我的目的地。踏入熟悉的、温暖的机房，与坐在讲台上的教练打个招呼，我便开始观察初中萌新。
 
-他们登录[洛谷](https://www.luogu.com.cn)便打开讨论区，他们互相指着对方打卡后弹出的今日运势，他们翻看 U 盘里的课件，他们刚按下“编译”就了弹出 $\small\colorbox{#FADB14}{\color{#FFF}\text{CE}}$……他们被突然弹出的屏幕广播中断手头上的事务，然后开始听课。他们晶亮的眼里闪烁着好奇的欢愉，又时时因自己的困惑皱紧眉头；在讲台上讲课的是张海琳，而我也难以忆起 [beckham_of_laiwu](https://www.luogu.com.cn/user/91888)、[AugestQ](https://www.luogu.com.cn/user/61264) 及 [PigBrain](https://www.luogu.com.cn/user/54475) 的身影。
+他们登录[洛谷](https://www.luogu.com.cn)便打开讨论区，他们互相指着对方打卡后弹出的今日运势，他们翻看 U 盘里的课件，他们刚按下“编译”就了弹出 $\small\colorbox{#FADB14}{\color{#FFF}{CE}}$……他们被突然弹出的屏幕广播中断手头上的事务，然后开始听课。他们晶亮的眼里闪烁着好奇的欢愉，又时时因自己的困惑皱紧眉头；在讲台上讲课的是张海琳，而我也难以忆起 [beckham_of_laiwu](https://www.luogu.com.cn/user/91888)、[AugestQ](https://www.luogu.com.cn/user/61264) 及 [PigBrain](https://www.luogu.com.cn/user/54475) 的身影。
 
 机房还是那个机房，只是其中的人不再返回；我前去拜访他们，便是去拜访五年前的自己。
 

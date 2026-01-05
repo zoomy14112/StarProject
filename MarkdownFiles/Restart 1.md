@@ -152,6 +152,14 @@ ICPC 西安站，对应 NOIP 2022 的尽力而为，从而望见自己能力的�
 
 回望自身，若是我早一点遇到[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)，那该多好？若是早一点遇到[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)，我也就会早一点认真对待“语文”这门课，也就早一点进入文学的世界，也就早一点掌握文字的力量。对[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)而言，恐怕难以与萱萱老师一样把语文课堂拓展到这种程度，教研组的统一备课很难留给老师个人发挥的余地，高考这座大山不仅压在学生们头上，更压在老师们头上。
 
+### 2026.1.2
+
+#### Project Plan: Remote Clipboard
+
+基础功能：自动读取剪贴板中的内容并上传到服务器，客户端可查看近期的剪贴板内容；进阶功能：支持账户登录，数据加密；完全体：支持多平台联动（Windows、Linux、Mac 和 Android）。
+
+白日做梦罢了。
+
 ### 2026.1.4
 
 #### 考试与写作
