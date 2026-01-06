@@ -5,7 +5,7 @@
 - Part 3 : OK!
 - Part 4 : OK!
 - Part 5 : Under construction.
-- Part 6 : Under construction.
+- Part 6 : OK!
 - Part 7 : OK!
 - Restart 1 : To be continued.
 - Fantasy : To be continued.
@@ -20,7 +20,7 @@
 
 ### To Do List
 
-- 天命既定
+- 命定于轨
 - ”围城“之困：``> “人生何处是归程，围城接围城。” <p align="right">她的 QQ 空间，2016 年 10 月 30 日</p>`
 - 离别
 - 局外人
