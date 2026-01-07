@@ -182,7 +182,7 @@ ICPC 西安站，对应 NOIP 2022 的尽力而为，从而望见自己能力的�
 
 2018 年以前的事，已全然忘却。从第一次踏入帝国大厦起，到 NOIP 2022 结束为止，我的心被与 OI 相关的所有事填满，容不下其他任何事。而退役之后呢？心突然放空，没有目的，仿佛也失去了灵魂。
 
-可我在寒假之后遇到了[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)。是[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)让我明白，除了竞赛之外的高中生活也可以变得幸福，对生活的态度取决于我的视角。于是我渐渐喜欢上有[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)相伴的高中生活，常常为有人能如此理解我而欣喜。到了 2023 年冬，仿佛是意识到过去一年的幸福有多么珍贵，我开始写《星辰project》以记录下各种零零碎碎的思想，希望此后的我能从文字中窥见当年的自己。半年后，高考，毕业，与[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)告别。《星辰project》就像驶离站台的火车，汽笛声逐渐悠远微弱，写下文字的驱动力也随时间流逝而衰减。
+可我在寒假之后遇到了[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)。是[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)让我明白，除了竞赛之外的高中生活也可以变得幸福，对生活的态度取决于我的视角。于是我渐渐喜欢上有[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)相伴的高中生活，常常为有人能如此理解我而欣喜。到了 2023 年冬，仿佛是意识到过去一年的幸福有多么珍贵，我开始写《星辰project》以记录下各种零零碎碎的思想，希望此后的我能从文字中窥见当年的自己。受[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)影响，我以轻松的心态和认真的态度面对高考，无疑是一大幸事。半年后，高考，毕业，与[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)告别。《星辰project》就像驶离站台的火车，汽笛声逐渐悠远微弱，写下文字的驱动力也随时间流逝而衰减。
 
 在衰减的过程中，过去的我时常浮现，又时常遁走。珞珈山下的第一个年头，我似乎每天都很忙碌，但其实一事无成。而 2025 年秋，就像三年前的停课一样，我放弃了对绩点与综测仅有的一点点重视，投入全部精力备战 ICPC 西安站。以“菠萝催学”队的身份集训，是短暂而又幸福的，幸福的我忘乎所以，与她们一同申请打星 CCPC 重庆站。可梦终会醒， XCPC 生涯也终会结束，于是我又一次迎来了退役。
 
