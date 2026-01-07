@@ -1,12 +1,6 @@
 ### Main Components
 
-- Part 1 : OK!
-- Part 2 : OK!
-- Part 3 : OK!
-- Part 4 : OK!
-- Part 5 : Under construction.
-- Part 6 : OK!
-- Part 7 : OK!
+- Part $1 \sim 7$ : OK!
 - Restart 1 : To be continued.
 - Fantasy : To be continued.
 
@@ -22,6 +16,5 @@
 
 - 命定于轨
 - 离别
-- ”围城“之困：`> “人生何处是归程，围城接围城。”\n<p align="right">她的 QQ 空间，2016 年 10 月 30 日</p>`
+- “围城”之困：`> “人生何处是归程，围城接围城。”\n<p align="right">她的 QQ 空间，2016 年 10 月 30 日</p>`
 - 局外人
-- `gender.reverse()`
