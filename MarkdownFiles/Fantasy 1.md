@@ -249,3 +249,5 @@
 虽然体育中考累死累活，可最终获得满分；虽然没有进入省队，可减少停课的时间使我的高中生活更加从容；认识形形色色的人，增强了我对污秽的抵抗力；与[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)达成理解，一路相伴也已足够幸福；两个月的 XCPC TIME，我也与 [kzos](https://www.luogu.com.cn/user/295534) 和 [guuu_](https://www.luogu.com.cn/user/123530) 一同创造了许多美好的回忆，收获如此纯粹、如此难得的友谊…现在的我，也还好。
 
 我又没有性别认同方面的矛盾，绝对不会去做 SRS 之类的啦。
+
+---

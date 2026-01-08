@@ -61,6 +61,7 @@ struct Passage
     }
 };
 vector<Passage> Passage::passages;
+vector<Passage> attachments;
 
 bool ReadLine(ifstream& fin,string& line)
 {
@@ -138,14 +139,45 @@ void ReadPassages(const string& Filename)
     }
 }
 
+void ReadAttachments(const string& Filename)
+{
+    ifstream fin(Filename);
+    Passage p;
+    string line;
+    if(!fin.is_open())
+    {
+        cerr<<"Cannot open file "<<Filename<<endl;
+        return ;
+    }
+    getline(fin,p.title);
+    p.title=p.title.substr(4);
+    while(ReadLine(fin,line))
+    {
+        p.content+=line;
+        p.content+=string("\n");
+    }
+    fin.close();
+    attachments.push_back(p);
+}
+
 void FetchFiles()
 {
     string path="./MarkdownFiles/",file;
     ifstream fin("./export/filelist.txt");
-    while(ReadLine(fin,file))
+    ReadLine(fin,file);
+    while(true)
     {
         cerr<<"Reading "<<file<<" ... ";
         ReadPassages(path+file);
+        cerr<<"Done."<<endl;
+        ReadLine(fin,file);
+        if(file.substr(0,4)=="### ")
+            break;
+    }
+    while(ReadLine(fin,file))
+    {
+        cerr<<"Reading "<<file<<" ... ";
+        ReadAttachments(path+file);
         cerr<<"Done."<<endl;
     }
 }
@@ -167,6 +199,7 @@ void MergeFiles()
     sort(Passage::passages.begin(),Passage::passages.end());
     ofstream fout("./export/release.md");
     Date prevDate;
+    fout<<"## Main Content\n";
     for(auto& p:Passage::passages)
     {
         if(!(p.date==prevDate))
@@ -175,9 +208,15 @@ void MergeFiles()
         fout<<p.content;
         prevDate=p.date;
     }
+    fout<<"\n## Attachments\n\n";
+    for(auto& p:attachments)
+    {
+        fout<<"### "<<p.title<<"\n";
+        fout<<p.content<<"\n\n";
+    }
     Date now=GetDateNow();
     fout<<"\n---\n\n";
-    fout<<"<p align=\"right\" style=\"font-family: 'Courier New', monospace; font-size: 20px;\">released on "<<now.year<<"."<<now.month<<"."<<now.day<<" </p>\n";
+    fout<<"<p align=\"right\" style=\"font-family: 'Courier New', monospace; font-size: 20px;\">released on "<<now.year<<"."<<now.month<<"."<<now.day<<" </p>\n\n";
     fout.close();
     cerr<<"Done."<<endl;
 }
