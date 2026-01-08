@@ -1,6 +1,6 @@
-## 星海横流
+### 星海横流
 
-<p align="right">记《三体》罗辑</p>
+<p align="right" style="font-size:12px;">记《三体》罗辑</p>
 
 - 灯红酒绿
 

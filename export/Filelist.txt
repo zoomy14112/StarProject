@@ -6,4 +6,5 @@ Part 5.md
 Part 6.md
 Part 7.md
 Restart 1.md
-Fantasy.md
+Fantasy 1.md
+Fantasy 2.md
