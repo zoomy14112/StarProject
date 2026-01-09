@@ -1,8 +1,9 @@
-### Main Components
+### Main Contents
 
 - Part $1 \sim 7$ : OK!
 - Restart 1 : To be continued.
-- Fantasy : To be continued.
+- Fantasy 1 : OK!
+- Fantasy 2 : To be continued.
 
 ### Attachments
 
