@@ -30,6 +30,12 @@ struct Date
     {
         return year==other.year&&month==other.month&&day==other.day;
     }
+    string ToString()const
+    {
+        char buffer[20];
+        sprintf(buffer,"%d.%d.%d",year,month,day);
+        return string(buffer);
+    }
 };
 
 struct Passage
@@ -193,12 +199,27 @@ Date GetDateNow()
     return date;
 }
 
+void PrintIndex(ofstream& fout)
+{
+    Date prevDate;
+    fout<<"## Index\n";
+    int count=Passage::passages.size();
+    for(int i=0;i<count;++i)
+    {
+        Date currDate=Passage::passages[i].date;
+        if(currDate.year!=prevDate.year||currDate.month!=prevDate.month)
+            fout<<"- ["<<currDate.year<<" 年 "<<currDate.month<<" 月](###"<<currDate.ToString()<<")\n";
+        prevDate=currDate;
+    }
+}
+
 void MergeFiles()
 {
     cerr<<"Merging files ... ";
     sort(Passage::passages.begin(),Passage::passages.end());
     ofstream fout("./export/release.md");
     Date prevDate;
+    PrintIndex(fout);
     fout<<"## Main Content\n";
     for(auto& p:Passage::passages)
     {
@@ -216,7 +237,8 @@ void MergeFiles()
     }
     Date now=GetDateNow();
     fout<<"\n---\n\n";
-    fout<<"<p align=\"right\" style=\"font-family: 'Courier New', monospace; font-size: 20px;\">released on "<<now.year<<"."<<now.month<<"."<<now.day<<" </p>\n\n";
+    fout<<"<p align=\"right\" style=\"font-family: 'Courier New', monospace; font-size: 20px;\">";
+    fout<<"released on "<<now.year<<"."<<now.month<<"."<<now.day<<" </p>\n\n";
     fout.close();
     cerr<<"Done."<<endl;
 }
