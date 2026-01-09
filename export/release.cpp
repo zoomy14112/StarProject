@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 vector<string> Fliter;
+mt19937 Rand(time(nullptr)^(uintptr_t)(new char));
 
 struct Date
 {
@@ -36,6 +37,10 @@ struct Date
         sprintf(buffer,"%d.%d.%d",year,month,day);
         return string(buffer);
     }
+    friend bool IsConstant(const Date& d1,const Date& d2)
+    {
+        return d1.year==d2.year&&d1.month==d2.month;
+    }
 };
 
 struct Passage
@@ -43,11 +48,17 @@ struct Passage
     string title;
     string content;
     Date date;
+    int seed;
     static vector<Passage> passages;
+    Passage()
+    {
+        seed=Rand();
+        date=Date();
+    }
     bool operator<(const Passage& other)const
     {
         if(date==other.date)
-            return title<other.title;
+            return seed<other.seed;
         return date<other.date;
     }
     void SelfCheck()
@@ -137,7 +148,7 @@ void ReadPassages(const string& Filename)
             ReadLine(fin,line);
             continue;
         }
-        cerr<<"undefined line:"<<line<<'|'<<endl;
+        cerr<<"\nundefined line:"<<line<<'|'<<endl;
         if(ReadLine(fin,line))
             continue;
         fin.close();
@@ -171,6 +182,7 @@ void FetchFiles()
     string path="./MarkdownFiles/",file;
     ifstream fin("./export/filelist.txt");
     ReadLine(fin,file);
+    ReadLine(fin,file);
     while(true)
     {
         cerr<<"Reading "<<file<<" ... ";
@@ -199,7 +211,7 @@ Date GetDateNow()
     return date;
 }
 
-void PrintIndex(ofstream& fout)
+void GenarateIndex(ofstream& fout)
 {
     Date prevDate;
     fout<<"## Index\n";
@@ -207,8 +219,11 @@ void PrintIndex(ofstream& fout)
     for(int i=0;i<count;++i)
     {
         Date currDate=Passage::passages[i].date;
-        if(currDate.year!=prevDate.year||currDate.month!=prevDate.month)
-            fout<<"- ["<<currDate.year<<" 年 "<<currDate.month<<" 月](###"<<currDate.ToString()<<")\n";
+        if(!IsConstant(currDate,prevDate))
+        {
+            string buffer=to_string(currDate.year)+" 年 "+to_string(currDate.month)+" 月";
+            fout<<"- ["<<buffer<<"](###"<<buffer<<")\n";
+        }
         prevDate=currDate;
     }
     count=attachments.size();
@@ -222,12 +237,12 @@ void MergeFiles()
     sort(Passage::passages.begin(),Passage::passages.end());
     ofstream fout("./export/release.md");
     Date prevDate;
-    PrintIndex(fout);
+    GenarateIndex(fout);
     fout<<"## Main Content\n";
     for(auto& p:Passage::passages)
     {
-        if(!(p.date==prevDate))
-            fout<<"### "<<p.date.year<<"."<<p.date.month<<"."<<p.date.day<<"\n";
+        if(!IsConstant(p.date,prevDate))
+            fout<<"### "<<p.date.year<<" 年 "<<p.date.month<<" 月\n";
         fout<<"#### "<<p.title<<"\n";
         fout<<p.content;
         prevDate=p.date;

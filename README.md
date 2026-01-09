@@ -1,3 +1,5 @@
+发行版：[Release.pdf](./export/Release.pdf)
+
 ### Main Contents
 
 - Part $1 \sim 7$ : OK!
