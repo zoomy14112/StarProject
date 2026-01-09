@@ -155,7 +155,7 @@ void ReadAttachments(const string& Filename)
         cerr<<"Cannot open file "<<Filename<<endl;
         return ;
     }
-    getline(fin,p.title);
+    ReadLine(fin,p.title);
     p.title=p.title.substr(4);
     while(ReadLine(fin,line))
     {
@@ -211,6 +211,9 @@ void PrintIndex(ofstream& fout)
             fout<<"- ["<<currDate.year<<" 年 "<<currDate.month<<" 月](###"<<currDate.ToString()<<")\n";
         prevDate=currDate;
     }
+    count=attachments.size();
+    for(int i=0;i<count;++i)
+        fout<<"- [附件："<<attachments[i].title<<"](###"<<attachments[i].title<<")\n";
 }
 
 void MergeFiles()
