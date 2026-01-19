@@ -2,6 +2,7 @@
 using namespace std;
 vector<string> Fliter;
 mt19937 Rand(time(nullptr)^(uintptr_t)(new char));
+string OutputFilename;
 
 struct Date
 {
@@ -148,7 +149,7 @@ void ReadPassages(const string& Filename)
             ReadLine(fin,line);
             continue;
         }
-        cerr<<"\nundefined line:"<<line<<'|'<<endl;
+        cerr<<"\nundefined line:"<<line<<"|\n";
         if(ReadLine(fin,line))
             continue;
         fin.close();
@@ -182,15 +183,14 @@ void FetchFiles()
     string path="./MarkdownFiles/",file;
     ifstream fin("./export/filelist.txt");
     ReadLine(fin,file);
-    ReadLine(fin,file);
     while(true)
     {
-        cerr<<"Reading "<<file<<" ... ";
-        ReadPassages(path+file);
-        cerr<<"Done."<<endl;
         ReadLine(fin,file);
         if(file.substr(0,4)=="### ")
             break;
+        cerr<<"Reading "<<file<<" ... ";
+        ReadPassages(path+file);
+        cerr<<"Done."<<endl;
     }
     while(ReadLine(fin,file))
     {
@@ -231,11 +231,29 @@ void GenarateIndex(ofstream& fout)
         fout<<"- [附件："<<attachments[i].title<<"](###"<<attachments[i].title<<")\n";
 }
 
-void MergeFiles()
+void MergeFiles(bool randomize)
 {
-    cerr<<"Merging files ... ";
+    if(randomize)
+    {
+        if(OutputFilename.empty())
+            OutputFilename="random.md";
+        ofstream fout("./export/"+OutputFilename);
+        cerr<<"Randomizing files ... ";
+        shuffle(Passage::passages.begin(),Passage::passages.end(),Rand);
+        for(auto& p:Passage::passages)
+        {
+            fout<<"#### "<<p.title<<" ("<<p.date.ToString()<<")\n";
+            fout<<p.content;
+        }
+        cerr<<"Done.("<<OutputFilename<<")"<<endl;
+        fout.close();
+        return ;
+    }
+    if(OutputFilename.empty())
+        OutputFilename="release.md";
+    ofstream fout("./export/"+OutputFilename);
     sort(Passage::passages.begin(),Passage::passages.end());
-    ofstream fout("./export/release.md");
+    cerr<<"Merging files ... ";
     Date prevDate;
     GenarateIndex(fout);
     fout<<"## Main Content\n";
@@ -254,11 +272,11 @@ void MergeFiles()
         fout<<p.content<<"\n\n";
     }
     Date now=GetDateNow();
-    fout<<"\n---\n\n";
+    fout<<"\n\n";
     fout<<"<p align=\"right\" style=\"font-family: 'Courier New', monospace; font-size: 20px;\">";
     fout<<"released on "<<now.year<<"."<<now.month<<"."<<now.day<<" </p>\n\n";
     fout.close();
-    cerr<<"Done."<<endl;
+    cerr<<"Done.("<<OutputFilename<<")"<<endl;
 }
 
 void TransformToPDF()
@@ -276,10 +294,29 @@ void Initialize()
 
 signed main(int argc, char** argv)
 {
+    bool MergeFlag=0;
     vector<string> args(argv,argv+argc);
+    for(int i=0;i<argc;++i)
+    {
+        if(args[i]=="-f"&&i+1<argc)
+            Fliter.push_back(args[i+1]);
+        if(args[i]=="-r")
+            MergeFlag=1;
+        if(args[i]=="-o"&&i+1<argc)
+            OutputFilename=args[i+1];
+        if(args[i]=="-h")
+        {
+            cout<<"Usage: release.exe [-r] [-o output_filename] [-f filter_keyword] [-h]\n";
+            cout<<"  -r : randomize the passages order\n";
+            cout<<"  -o : specify the output filename\n";
+            cout<<"  -f : specify a filter keyword (can be used multiple times)\n";
+            cout<<"  -h : display this help message\n";
+            return 0;
+        }
+    }
     Initialize();
     FetchFiles();
-    MergeFiles();
+    MergeFiles(MergeFlag);
     // TransformToPDF();
     return 0;
 }
