@@ -250,7 +250,7 @@ void MergeFiles(bool randomize)
         return ;
     }
     if(OutputFilename.empty())
-        OutputFilename="release.md";
+        OutputFilename="StarProject.md";
     ofstream fout("./export/"+OutputFilename);
     sort(Passage::passages.begin(),Passage::passages.end());
     cerr<<"Merging files ... ";
@@ -279,13 +279,6 @@ void MergeFiles(bool randomize)
     cerr<<"Done.("<<OutputFilename<<")"<<endl;
 }
 
-void TransformToPDF()
-{
-    cerr<<"Transforming to PDF ... ";
-    system("pandoc -s -o Release.pdf --pdf-engine=xelatex release.md");
-    cerr<<"Done."<<endl;
-}
-
 void Initialize()
 {
     Fliter.push_back("\\large\\mathbf{返回}");
@@ -306,7 +299,7 @@ signed main(int argc, char** argv)
             OutputFilename=args[i+1];
         if(args[i]=="-h")
         {
-            cout<<"Usage: release.exe [-r] [-o output_filename] [-f filter_keyword] [-h]\n";
+            cout<<"Usage: release [-r] [-o output_filename] [-f filter_keyword] [-h]\n";
             cout<<"  -r : randomize the passages order\n";
             cout<<"  -o : specify the output filename\n";
             cout<<"  -f : specify a filter keyword (can be used multiple times)\n";
@@ -317,6 +310,5 @@ signed main(int argc, char** argv)
     Initialize();
     FetchFiles();
     MergeFiles(MergeFlag);
-    // TransformToPDF();
     return 0;
 }
