@@ -1,4 +1,4 @@
-**发行版：[release.html](./export/release.html)**
+**发行版：[release.html](https://zoomy14112.github.io/StarProject/export/release.html)**
 
 ### Main Contents
 
