@@ -214,7 +214,7 @@ Date GetDateNow()
 void GenarateIndex(ofstream& fout)
 {
     Date prevDate;
-    fout<<"## Index\n";
+    fout<<"## Timeline\n";
     int count=Passage::passages.size();
     for(int i=0;i<count;++i)
     {
