@@ -1,4 +1,4 @@
-**发行版：[release.pdf](./export/release.pdf)**
+**发行版：[release.html](./export/release.html)**
 
 ### Main Contents
 
