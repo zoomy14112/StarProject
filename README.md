@@ -1,5 +1,7 @@
 **发行版：[StarProject.html](https://zoomy14112.github.io/StarProject/export/StarProject.html)**
 
+**时间倒序版本（由新到旧）：[Reverse.html](https://zoomy14112.github.io/StarProject/export/Reverse.html)**
+
 ### Main Contents
 
 - Part $1 \sim 7$ : OK!
@@ -15,7 +17,7 @@
 - Thelema 3 : ok!
 - 星海横流 : ok!
 - 涅槃 : ok!
-- [孤灯夜雪](./MarkdownFiles/孤灯夜雪.md) : To be continued.
+- [孤灯夜雪](./孤灯夜雪/Outline.md) : To be continued.
 
 ### To Do List
 

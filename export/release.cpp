@@ -4,6 +4,13 @@ vector<string> Fliter;
 mt19937 Rand(time(nullptr)^(uintptr_t)(new char));
 string OutputFilename;
 
+enum MergeMode
+{
+    Normal,
+    Random,
+    Reverse
+};
+
 struct Date
 {
     int year;
@@ -231,9 +238,33 @@ void GenarateIndex(ofstream& fout)
         fout<<"- [附件："<<attachments[i].title<<"](###"<<attachments[i].title<<")\n";
 }
 
-void MergeFiles(bool randomize)
+string RemoveExtention(const string& filename)
 {
-    if(randomize)
+    int i,n=filename.length();
+    string result;
+    for(i=0;i<n;++i)
+    {
+        if(filename[i]=='[')
+        {
+            ++i;
+            while(i<n&&filename[i]!=']')
+            {
+                result+=filename[i];
+                ++i;
+            }
+            ++i;
+            while(i<n&&filename[i]!=')')
+                ++i;
+            continue;
+        }
+        result+=filename[i];
+    }
+    return result;
+}
+
+void MergeFiles(MergeMode mode)
+{
+    if(mode==Random)
     {
         if(OutputFilename.empty())
             OutputFilename="random.md";
@@ -244,6 +275,27 @@ void MergeFiles(bool randomize)
         {
             fout<<"#### "<<p.title<<" ("<<p.date.ToString()<<")\n";
             fout<<p.content;
+        }
+        cerr<<"Done.("<<OutputFilename<<")"<<endl;
+        fout.close();
+        return ;
+    }
+    if(mode==Reverse)
+    {
+        if(OutputFilename.empty())
+            OutputFilename="Reverse.md";
+        ofstream fout("./export/"+OutputFilename);
+        cerr<<"Reversing files ... ";
+        sort(Passage::passages.begin(),Passage::passages.end());
+        reverse(Passage::passages.begin(),Passage::passages.end());
+        fout<<"#### README\n";
+        fout<<"这是一个倒序版本，按照时间从近到远排列。\n\n";
+        fout<<"单击 Next 可以跳转到下一篇文章。\n\n";
+        for(auto& p:Passage::passages)
+        {
+            fout<<"[Next](####"<<RemoveExtention(p.title)<<" ("<<p.date.ToString()<<"))\n";
+            fout<<"#### "<<RemoveExtention(p.title)<<" ("<<p.date.ToString()<<")\n";
+            fout<<p.content<<'\n';
         }
         cerr<<"Done.("<<OutputFilename<<")"<<endl;
         fout.close();
@@ -287,28 +339,31 @@ void Initialize()
 
 signed main(int argc, char** argv)
 {
-    bool MergeFlag=0;
+    MergeMode mode=Normal;
     vector<string> args(argv,argv+argc);
     for(int i=0;i<argc;++i)
     {
         if(args[i]=="-f"&&i+1<argc)
             Fliter.push_back(args[i+1]);
         if(args[i]=="-r")
-            MergeFlag=1;
+            mode=Random;
         if(args[i]=="-o"&&i+1<argc)
             OutputFilename=args[i+1];
+        if(args[i]=="-u")
+            mode=Reverse;
         if(args[i]=="-h")
         {
-            cout<<"Usage: release [-r] [-o output_filename] [-f filter_keyword] [-h]\n";
+            cout<<"Usage: release [-r] [-o output_filename] [-f filter_keyword] [-u] [-h]\n";
             cout<<"  -r : randomize the passages order\n";
             cout<<"  -o : specify the output filename\n";
             cout<<"  -f : specify a filter keyword (can be used multiple times)\n";
             cout<<"  -h : display this help message\n";
+            cout<<"  -u : reverse the order of passages\n";
             return 0;
         }
     }
     Initialize();
     FetchFiles();
-    MergeFiles(MergeFlag);
+    MergeFiles(mode);
     return 0;
 }
