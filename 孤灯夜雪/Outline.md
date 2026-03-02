@@ -1,4 +1,8 @@
-## 大纲
+## 现案
+
+保留废案的 chapter 2、chapter 6 的主要部分和 chapter ?。
+
+## 废案
 
 ### chapter 1 : background
 
