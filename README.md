@@ -2,6 +2,8 @@
 
 **时间倒序版本（由新到旧）：[Reverse.html](https://zoomy14112.github.io/StarProject/export/Reverse.html)**
 
+图片下载：<https://zoomy.lanzoul.com/b00pzlgszc>，密码为 `qqxc`
+
 ### Main Contents
 
 - Part $1 \sim 7$ : OK!
