@@ -2,7 +2,7 @@
 
 **时间倒序版本（由新到旧）：[Reverse.html](https://zoomy14112.github.io/StarProject/export/Reverse.html)**
 
-图片下载：<https://zoomy.lanzoul.com/b00pzlgszc>，密码为 `qqxc`
+图片下载链接为 <https://zoomy.lanzoul.com/b00pzlgszc>，密码 `qqxc`。
 
 ### Main Contents
 
@@ -20,6 +20,7 @@
 - 星海横流 : ok!
 - 涅槃 : ok!
 - [孤灯夜雪](./孤灯夜雪/Outline.md) : To be continued.
+- ？？？（基于我与 fox 的谈话）：？
 
 ### To Do List
 
