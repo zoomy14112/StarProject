@@ -19,7 +19,8 @@
 - Thelema 3 : ok!
 - 星海横流 : ok!
 - 涅槃 : ok!
-- [孤灯夜雪](./孤灯夜雪/Outline.md) : To be continued.
+- [孤灯夜雪](./Snow/Outline.md) : To be continued.
+- [漫漫长路](./MarkdownFiles/journey.md) : To be continued.
 - ？？？（基于我与 fox 的谈话）：？
 
 ### To Do List
