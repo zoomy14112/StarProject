@@ -4,7 +4,7 @@
 
 手写版图片下载链接为 <https://zoomy.lanzoul.com/b00pzlgszc>，密码 `qqxc`。
 
-点击链接下载对应格式的 《孤灯夜雪（上）》：[pdf]()、[epub]()；或是在线阅读：[html]()。
+点击链接下载对应格式的 《孤灯夜雪（上）》：[pdf]()、[epub]()；或是在线阅读：[html](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.html)。
 
 ### Main Contents
 
