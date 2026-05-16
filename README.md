@@ -1,10 +1,12 @@
 **发行版：[StarProject.html](https://zoomy14112.github.io/StarProject/export/StarProject.html)**
 
-**时间倒序版本（由新到旧）：[Reverse.html](https://zoomy14112.github.io/StarProject/export/Reverse.html)**
+**连载版：[Reverse.html](https://zoomy14112.github.io/StarProject/export/Reverse.html)**
 
-手写版图片下载链接为 <https://zoomy.lanzoul.com/b00pzlgszc>，密码 `qqxc`。
+手写版图片下载链接为 <https://zoomy.lanzoul.com/b00pzlgszc>。
 
-点击链接下载对应格式的 《孤灯夜雪（上）》：[pdf]()、[epub]()；或是在线阅读：[html](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.html)。
+点击链接下载对应格式的 《孤灯夜雪（上）》：[pdf](https://zoomy.lanzoul.com/inLQR3pm172b)、[epub](https://zoomy.lanzoul.com/iGwYP3pm171a)；或是在线阅读：[html](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.html)。
+
+上述文件，如有下载密码则为 `qqxc`。
 
 ### Main Contents
 
@@ -21,11 +23,5 @@
 - Thelema 3 : ok!
 - 星海横流 : ok!
 - 涅槃 : ok!
-- [孤灯夜雪](./Snow/Outline.md) : To be continued.
+- [孤灯夜雪](./Snow/Outline.md) : merely ok.
 - [漫漫长路](./MarkdownFiles/journey.md) : To be continued.
-- ？？？（基于我与 fox 的谈话）：？
-
-### To Do List
-
-- 局外人
-- 环境（学习环境：同化？抵抗！）

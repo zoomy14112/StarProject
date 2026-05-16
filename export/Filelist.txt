@@ -14,5 +14,5 @@ Fantasy 2.md
 Thelema 1.md
 Thelema 2.md
 Thelema 3.md
-For Logic.md
+ForLogic.md
 Nirvana.md

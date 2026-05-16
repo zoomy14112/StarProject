@@ -1,3 +1,10 @@
+---
+title: "孤灯夜雪"
+author: "千秋星辰"
+---
+
+
+
 <h1>孤灯夜雪</h1>
 
 <p align="right"><strong>作者：千秋星辰</strong></p>
