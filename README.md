@@ -6,6 +6,8 @@
 
 点击链接下载对应格式的 《孤灯夜雪（上）》：[pdf](https://zoomy.lanzoul.com/inLQR3pm172b)、[epub](https://zoomy.lanzoul.com/iGwYP3pm171a)；或是在线阅读：[html](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.html)。
 
+点击链接下载对应格式的《尘》：[pdf](https://zoomy.lanzoul.com/iK2TE3qbapgh)、[epub](https://zoomy.lanzoul.com/iv9Mu3qbapfg)；或是在线阅读：[html](https://zoomy14112.github.io/StarProject/export/Dust.html)。
+
 上述文件，如有下载密码则为 `qqxc`。
 
 ### Main Contents
@@ -20,8 +22,9 @@
 
 - Thelema 1 : ok!
 - Thelema 2 : ok!
-- Thelema 3 : ok!
+- Thelema 3 : ?
 - 星海横流 : ok!
 - 涅槃 : ok!
 - [孤灯夜雪](./Snow/Outline.md) : merely ok.
-- [漫漫长路](./MarkdownFiles/journey.md) : To be continued.
+- [漫漫长路](./MarkdownFiles/journey.md) : to be continued.
+- [尘](./MarkdownFiles/Dust.md): ok!

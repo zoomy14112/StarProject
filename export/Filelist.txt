@@ -16,3 +16,4 @@ Thelema 2.md
 Thelema 3.md
 ForLogic.md
 Nirvana.md
+Dust.md

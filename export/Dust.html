@@ -1,0 +1,617 @@
+<!doctype html>
+<html style='font-size:18px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left: 0.25em solid rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+
+</style><title>尘</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h3 id='尘'><span>尘</span></h3><p><span>在楼下的花坛旁等待着他穿好衣服下楼的我，捏着一根干枯的树枝搅动着松软的泥土。</span></p><p><span>他悄然出现在我身后。</span></p><p><span>“好久不见。给你带了瓶酸奶。”他从大衣口袋中掏出一瓶递给我，随后又掏出一瓶自己拧开。</span></p><p><span>“谢谢。走吧？”我把酸奶握在手里，依稀能感受到手心的温暖，与五年前别无二致。我没有拧开，把它放在自己的口袋中。</span></p><p><span>“走。”</span></p><p><span>随后我们并肩而行，走到小区西门。西门对着一条南北向的路，小区中有源源不断的高中生涌出，出门后向右流动。我扭头看向他的侧脸。他茫然地望向人流，喉结上下动了动，什么都没说，直到他注意到我在看他。</span></p><p><span>他在门口停下脚步：“我们去哪？”</span></p><p><span>“左拐吧。反正咱俩都有大把大把的时间，不是吗？”</span></p><p><span>“行。”他笑着点头，但笑容中隐藏着难以觉察的疲惫。</span></p><p><span>冬日午后的暖阳有些过于闪耀，使我不得不眯起眼。把双手从兜中掏出，沐浴在苍白的日光中，不觉寒冷。</span></p><p><span>“把手给我。”见他仍把手揣在兜里，我以一种不容置喙的语气命令。</span></p><p><span>虽有些疑惑不解，他仍乖乖地抽出右手，停下脚步低头看向我。</span></p><p><span>我迅速用左手牵住他的右手，他没有挣扎，羞涩之余，眼角溢出难掩的真诚笑意。我也忍不住勾起嘴角，微笑着向他说：“继续走吧，就像五年前那样。”</span></p><p><span>“就像五年前那样……你来找我有什么事吗？”他迈开步伐，视线直视前方，随口问道。</span></p><p><span>“没什么事，只是想和你聊聊天。若说有事，肯定是你发在朋友圈里的那件事。”</span></p><p><span>“你果然全都知道。”</span></p><p><span>面前出现一个十字路口。我牵着他的手向右侧旋转，把方向由正南调整至正西，随后开始等红灯。</span></p><p><span>“你自杀了几次？”我尽量以平静的语气说出这句话，即使我的心在颤抖。</span></p><p><span>随后是一段漫长的沉默。朔风凛冽，卷起柏油路上的灰尘与人行道上的落叶，跌跌撞撞地跟随着车辆穿过马路。感受到北境冬季的威严，我不禁缩了缩脖子。绿灯亮，我率先迈出一步，把他向前一扯，引得他也迈出一步。到了马路对面之后，他给出了回答：“三次。第一次是学校顶楼，我找到一扇限位器坏掉的窗户；但是看着窗外走来走去的同学们，我怕引起恐慌，就没跳。第二次是晚自习结束后回家，我写好遗书，吞下半瓶药，在半梦半醒中流着泪失去意识；可我又在抢救室里恢复了意识。第三次是去厨房拿了把水果刀；结果没找准桡动脉，流的血不够多。”</span></p><p><span>我默默地听着，在他视线的死角里偶尔点点头。手心中传来的温度仍像五年前一样温暖，可他的经历却变得千疮百孔。“然后呢？从第二次开始父母就发现了吧？”</span></p><p><span>“当然发现了。据我妈所说，她早晨叫我起床的时候看见床头的遗书，立刻就打 120 送到医院。我醒来之后，她只做了两件事：第一件事是苦苦哀求我不要再想不开，第二件事是问我下午能不能去上学。虽然仍旧头痛欲裂，但我还是去了，课肯定是一点都听不进去。本来这件事也就过去了，但是平时出差在外的我爸知道了这件事。一天晚上，刚回到家，满身酒气的他一把把我摁在床上，压得我生疼，动弹不得。他嘶吼着质问我：‘为什么要伤害自己？为什么？为什么！’他一遍又一遍地重复，而我已被吓得脑海中一片空白。”</span></p><p><span>我默默地听着。小时候，我经常见到他的母亲，却很少见到他的父亲。没想到平日里影踪全无的他，还有这样一面。他松开与我牵着的右手，从大衣中拿出酸奶，轻轻抿一口，又用左手装到另一侧的兜里。他这一系列动作腾出了右手，又重新牵住我的手。“等到他终于累了，放开我，我已经被吓得哭不出来。那一刻的我铁了心要摆脱这一切，跌跌撞撞地走向厨房，只是……又失败了。”</span></p><p><span>我侧过身，举起右手，一边凝视着他一边把右手搭在他的肩头。或许没有预料到这突如其来的亲昵举动，他的神色多了一丝尴尬，眼神却依旧空洞呆滞。我顺势抱住他，声音已接近呜咽：“答应我：活下去，好不好？就算是为了我而活也行。”</span></p><p><span>他怔了怔，把垂在身侧的左手放在我的背上，轻轻地拍了拍：“好啦好啦，我已经不会再自杀了。到目前为止不还好好的嘛，能和你聊天，能和你一块在大街上漫无目的地乱逛。”</span></p><p><span>我松开怀抱，继续与他并肩而行，听他继续讲述：“自从那一次开始，我爸我妈总算意识到我是真的有问题，不是装的。于是就去省城的医院做了个检查，检查结果就是朋友圈里那两张图——重度焦虑与中度抑郁。其实我早就察觉到了。在班里，我根本没法做题，看着纸上一个个汉字却没法理解它是什么意思；在家里，天天失眠，每有片刻休息时间就觉得耽误学习。”</span></p><p><span>“这种状态就不应该上学，应该在家休息休息。可我想，你可能也很难真正静下心来放松放松吧。”</span></p><p><span>“是的。在学校里，什么都做不了，想着回家；在家里，担心落下课程，又想着返校。根本没有容身之地。现在倒好了，我妈直接给我申请了一个长假，申请理由是‘身体不适、需在家调养’，说是心理问题计入档案会影响未来发展。你知道的，他们向来严格，眼里只有成绩而没有我。现在是高考前一百余天的关键阶段，他们却开始在乎我的感受，把学习成绩抛之不顾。可现在这种情况，在乎我的感受又有什么用呢？于是就变成今天你来之前的样子：每天烂在家里，无论做什么都很痛苦，等待高考这一审判日的降临。”</span></p><p><span>或许可以玩一下电脑上那一堆单机游戏转移一下注意力？话还没说出口，就被我自己否决：现在的他肯定没心思玩吧。明明小时候他玩得那么快乐，现在却找不到任何重拾快乐的方法。前方出现一个 Y 形路口，楼宇间的阴凉地里仍有堆堆沾染着灰尘的残雪，默默融化成污浊的泥水。我们本就在路右侧，便顺着右前方继续前进。</span></p><p><span>“高考完、上了大学之后就好了。你是这么想的，对吧？”我抛出问题。</span></p><p><span>“差不多。最起码比现在要强。”他表示肯定。</span></p><p><span>“好，但也不好。好处在于你可以摆脱父母、获得自由，坏处在于我不知道如何使用这份自由。”我无奈地回答，回忆起这一年半的点点滴滴，心中泛起阵阵酸涩。“我不知道我喜欢什么专业。填志愿的时候计算机很火，所以当时报了个计算机，可我不喜欢、也学不会计算机。这三个学期以来的专业课，全都在及格线边缘。面对实验课与大作业，什么都不会的我竭尽所能才勉强与他们随手做出的成果相提并论。我不知道我想要什么样的生活，也不喜欢社交，闲着没事的时候就一个人出去逛逛，或是闷在宿舍里追剧。拥有自由自然是一件好事，可自由的代价是什么呢？”</span></p><p><span>我停顿一下，掏出酸奶，试着用右手拧开。随着手腕的转动，瓶盖上的条纹与手指摩擦，纹丝不动。“冬天嘛，手腕上的旧伤又发作了。”他一面嘟囔着，一面接过我手中的酸奶并轻松拧开，并塞到我的右手里。我感激地看了他一眼，喝了一小口，继续说：“自由的代价是迷茫。”</span></p><p><span>“我记得你高中时就很自由、很快乐。”</span></p><p><span>“是的。所以我才会怀念高中，既自由又有高考这一明确的方向与目标。你应该能看出来，我父母都很开明，对我一直采取‘放养’的策略，我从小到大都无拘无束。即使在高中，不在尖子班而在普通班的我也没有很大的压力，过得非常快乐。所以啊，往日的生活非常幸福，现在的生活非常迷茫，夹在二者之间的我会变得什么样呢？”</span></p><p><span>他微微歪头，随即眉毛一动：“变得像我一样。”</span></p><p><span>“是的，变得像你一样。你在美好的未来与痛苦的现实之间挣扎，而我在美好的过去与迷茫的此刻之中消沉。我相信你也有一样的感觉：长时间的情绪低落、无论对什么事情都提不起兴趣、明明没生病就浑身乏力。我还喜欢空想，有时能在空想中消耗一整天，并且立刻忘记刚刚所想的内容。也有些时候，我什么都感受不到，对他人的情感、周身的氛围乃至自己的情绪一无所知……”</span></p><p><span>“你这样不行的，你也得接受治疗！”他焦急地打断我。</span></p><p><span>“不。恰恰相反，我不能表现出任何异常，我必须表现得与常人无异，即使会非常累。一方面，我在表象上维持现状，父母不会发现，我们家才能保持平静，若是打破这个平静，情况会比现在还要糟糕。另一方面，我知道你吃的那些药会有什么后果，会降低自己对外界的感受甚至削弱自己的情感。我尤其不能接受第二点，我对外界的感受是支撑着我活下去的支柱，唯有这些感受的存在才能让我意识到‘我活在这世界上’。感受不到痛苦比痛苦本身更悲哀。”</span></p><p><span>我转过头去，正好看到他皱起眉头。“你居然这样，我一直没看出来……在我心中，你的形象可是一个元气满满的邻家姐姐。”他看起来半信半疑。</span></p><p><span>“那说明我伪装得好。而且高考前我也没这么虚无。”</span></p><p><span>“那你准备怎么办？”</span></p><p><span>“维持现状。其实我也不是没想过离开这个世界，但我没有离开这个世界的理由。我不想死，但也没有强烈的活的欲望。像我这样的人，就是那种遇到灾难后会微笑着接受的人，就是那种会毫不犹豫地舍身救人的人，就是那种对自己的得失荣辱毫不在意的人。从这一点来看，咱们算是同一类人吧？别人可能会说，像咱们这样的人有心理疾病，可谁又能保证自己没有心理疾病呢？”</span></p><p><span>横在面前的是一条覆盖着薄冰的河渠，两岸都修建了环境优美的微型公园，我便牵着他走上沿河的木质栈桥。对岸的草坪上，有优哉游哉地晒太阳的老大爷，也有奔跑嬉闹着的小孩子。</span></p><p><span>“你可别跳下去啊，我不会游泳，救不了你。”我打趣道。</span></p><p><span>“不会的啦。我也没学过游泳。”他笑着回应，与记忆中的他别无二致。</span></p><p><span>他继续说：“与你不同的是，我有很多活下去的理由，也有很多活不下去的理由。我死了之后父母会很伤心，所以我不能死；我现在这个样子天天待在家里啥也做不了，父母见到后也不高兴，所以我不能这样活着。现在的我已放弃自杀，全心全意地企盼着高考后的解脱。”</span></p><p><span>“对你而言高考可能确实是解脱。但是，你为什么一定要为你父母而活？你选择怎样的生活与他们没有直接关联。”</span></p><p><span>“他们生我养我，我总得尽孝啊。”</span></p><p><span>“那我有一个‘尽孝悖论’：如果父母把你视为一个独立的个体，他们就不会强制性地干扰你的生活，不会向你施加不可承受的重压，他们会认为照顾好自己是尽孝的前提；如果父母把你视为他们的附庸，‘养儿防老’，这不是培养后代的正常方法，所以他们不值得作为尽孝的对象。”</span></p><p><span>“诡辩。即使是第二种也依然应该尽孝，而且他们现在也迷途知返了。”</span></p><p><span>“你啊，就是太过温柔，温柔到不忍心伤害任何人，却无法温柔地对待自己。可能我也这样。”我抱住他的右臂，试着把头贴在他肩上，却被他躲开。我微微一笑，不再勉强。</span></p><p><span>“或许吧。越是温柔的人越容易被伤害。”他视线下移，盯着脚下的泥土，“我这边自然可以归因到原生家庭，而你的家庭那么幸福，却也变成这个样子。为什么……你有什么头绪吗？”</span></p><p><span>我开始回忆我所经历的二十年：小学时离群索居、渐渐喜欢上学钢琴、中考前也会紧张焦虑、高考前却无限地放松惬意。脑海中回荡着《Merry Christmas, Mr. Lawrence》的旋律，话语脱口而出：“我生而如此。这不是任何人的错，自然也不能怪罪于与我相识的任何人。”</span></p><p><span>“原来如此。未来你准备怎么办呢？考研？考公？还是毕业后直接找工作？”</span></p><p><span>“我不知道。高考后的那个暑假，我还天真地幻想着博士毕业后留校任教，哪会想到计算机这么难学。现在看来，毕业前后考个教师资格证，回高中当老师就挺好。但是考编也很难啊，考上了之后更难。你应该知道，整个县里，和我、和你一起参加中考的人，每年有一万两千多个；去年呢，全县新生儿只有不到六千。孩子越来越少，老师又怎会过得安安稳稳？过去的我从来不会规划未来，直到现在的我发现没有未来。你呢？高考完应该有很多想做的事吧？”</span></p><p><span>“当然有，但也不算多。首先是去省城参加七月份的漫展，之前的每一个暑假都被补习班填满，根本没有机会；然后要看一场线下的电竞比赛，一般在魔都或是蓉城举办，距离比较远，需要的钱也比较多；并且加入一个汉化组做翻译，我爸我妈严格管控我的手机电脑使用，也不允许我学日语。既然高考已经结束，我爸我妈应该会同意的。”</span></p><p><span>真的会同意吗……我把疑问留在心里，继续问他：“未来呢？”</span></p><p><span>“上个不知道什么地方的野鸡二本或是大专，毕业后送外卖呗。”</span></p><p><span>“怎么可能。只要你能照常参加高考，配合上奥赛的奖项，上个省内的 211 是绝对没有问题的。若是病情有所好转，恢复到你往日的水平，去省内最好的 985 也很正常。当然，这只是合理的推测，并不是说要你一定要去这两所大学。你看我说着要考证、考编，实则一点都没准备，说不定还要和你一起送外卖。”</span></p><p><span>“那你也是留在江城。华中地区的省会肯定要比这个小县城好。”</span></p><p><span>“但我更喜欢这个小县城。”说完这句，我把下一句话留在心里：“因为这里有太多太多美好的回忆。”</span></p><p><span>“奥赛奖项……你应该还记得与你同级的那个竞赛生吧？那个学长，也是退役后得了抑郁症，天天不上学，高考还没过特招线。你不觉得我就像他一样吗？一边手里握着不顾父母反对得来的竞赛奖项，一边又因为抑郁与高考失利受尽嘲笑。当年我还对他嗤之以鼻，现在的我却变成了他……”</span></p><p><span>“首先，他受到嘲笑的原因是平日的飞扬跋扈、不可一世，这一点就与你有根本上的不同。抑郁也是生病、也是意外，一个恶贯满盈的人身患绝症，大家会拍手称快；而若是一个普通人遭逢厄运，大家会扼腕叹息。而且，没有任何两个人的人生是完全相同的。你说他就是遭逢失败的你，说不定你会成为夺得成功的他。乾坤未定，万事皆有可能。”</span></p><p><span>“而我不可能，我也一样耽误课程……”</span></p><p><span>“那你看看我呢？高考前的五月，我可是一直在医院。你是知道的。”</span></p><p><span>他笑了，笑得是如此轻松，笑得是如此释然。“若是我像你一样就好了……”我似乎听到了小声呢喃。</span></p><p><span>河道于此转入地下，微型公园也抵达尽头。我们离开公园，重新回到尘土飞扬的大路，背对着已微微泛红的斜阳。</span></p><p><span>“你累不累？”他关切地问我。</span></p><p><span>“还好。你呢？”</span></p><p><span>“没事，出来活动活动也挺好。”</span></p><p><span>“如此温柔、如此贴心，你要是有个女朋友就好了，爱情足以滋润你干涸的内心。”虽然明知不可能，但我仍旧把话语说出口。</span></p><p><span>“根本没有喜欢的人嘛……”</span></p><p><span>“总有人喜欢你，只是你可能不知道。”回想起高考后向我告白的高中同学，我觉得我的猜测十分正确。</span></p><p><span>“也许吧，这不重要。你这边呢？你怎么不找一个男朋友？”</span></p><p><span>“死宅大学生根本没有社交啦，虽然身处工科院系但没认识几个男生……而且我也没有谈恋爱的想法。”眼见着话题转向轻松愉悦，我昂起头来，望向灰蓝色的天空，正看到高中母校校门上“第一中学”的牌匾。都走到这里了啊……我丝毫没有停驻的意图，拉着他继续往前走：“想回去吗？”</span></p><p><span>“想，但也不想。无论是想回去还是不想回去，想法的来源都是恐惧——害怕什么都不会的自己，害怕浪费宝贵的时间。”</span></p><p><span>“尖子班的任务很多、要求很严格吧？”</span></p><p><span>“当然。”</span></p><p><span>“你有没有想过，当你无法完成任务、无法达到要求会发生什么？以你现在这种情况，他们不敢把你怎么样的。所以啊，那些任务与要求对你而言只是参考，是否做到都无所谓的。”</span></p><p><span>“有道理啊！”他的眼睛闪烁着亮光。</span></p><p><span>“虽然方式不同，但你也可以获得与我相同程度的自由，对吧？我知道摆脱对高考的焦虑很难，但我依然要告诉你：高考其实没那么重要。即使是名校毕业生又怎样？依然有找不到专业对口的工作的人，与学历停留在大专甚至高中的人争抢同一份体力劳动活。这么来看，不上大学还能少走四年弯路。”</span></p><p><span>他又笑了起来，在并未向他敞开大门的校园之外。校园内的学生们还在上课、写作业、考试，连吃饭上厕所都要着急忙慌。在外面就挺好。</span></p><p><span>又走到了他家楼下。“你家没有别人吧？”我试探着。</span></p><p><span>“没有。我爸我妈都去上班了，回来的很晚。”</span></p><p><span>于是我便跟着他来到楼上。虽有些抗拒，但他还是允许我走进家门。映入眼帘的是杂乱的客厅，一句话脱口而出：“你家没有监控吧？”</span></p><p><span>“没有。怎么？你难道想做什么见不得人的事吗？”他的语气中充满困惑。</span></p><p><span>“不至于不至于，我只是不想让你父母知道我来过。”自觉失言，我稍作解释便拐入他的卧室。已经五年没有来过了呀……与我记忆中一样，书架上摆着满当当的书，书桌下有成捆成捆的试卷与习题，桌面上是键盘鼠标，墙壁上悬挂着机箱。他的房间依旧干净整洁，虽然书架顶上的摆饰积满厚厚的灰尘。我一屁股坐到床上，却发现身下有一个四四方方的硬块，抽出来一看，《心理学与生活》。</span></p><p><span>“这是你正在看的书吗？”</span></p><p><span>“不是，是我妈正在看的。”他回答后，转身离开房间，开始在客厅里翻箱倒柜。</span></p><p><span>“你在找什么？”</span></p><p><span>“纸杯……总得烧点热水接待一下你吧。”</span></p><p><span>“不用不用，我稍微坐一会儿休息休息就走。”</span></p><p><span>于是他回到我身畔，与我一同坐在床上。我细细打量着书柜，发现低处的一格摆放着几个药瓶。他的目光跟随着我的目光，也看向了那里。随后他抬起手腕看一眼手表，说一句“到了吃药的时间了”，就走上前去取出药瓶。他把药片倒出一粒，拧开水杯，和着水一口咽下去，行云流水。见到他的神色中透露出一丝拘谨，我意识到我应该走了。</span></p><p><span>“也到了我该走的时候了呢。”</span></p><p><span>“要不要我送送你？”</span></p><p><span>“不用不用，你就老老实实坐着吧。”</span></p><p><span>话虽如此，他依然把我送到他家门口。与他告别，来到楼下，我又见到了等待他时所挖的小土坑，不禁抓起一把沙土扬向天空，看着它们被风吹起四散飘落。在整个社会、整个世界面前，我与他都如尘埃般渺小；只愿我这一粒微尘与他这一粒微尘的碰撞，能够微微撬动一点点命运的轨迹。</span></p><p><span>而我甚至不在意自己的命运。</span></p><p align="right">千秋星辰<br>2026 年 5 月 25 日</p><hr /><p><span>这是我写下的第二篇小说，六千余字，算是体量比较小的短篇。</span></p><p><span>我依然没有凭空创造人物形象的能力，所以故事中的“我”与“他”均真实存在：“我”的原型是大学里的学姐，“他”的原型是高中里的学弟。与他们二人沟通的人均是我，我把与学姐的交流和与学弟的聊天缝合在一起，借以抹消我的存在。她确实是在大学里感到迷茫虚无、直到毕业都不清楚自己想做什么的一位学姐，他确实是在高中里被来自各方面、尤其是来自自我的重压压垮的一位学弟，我对二人的形象作了尽可能的还原与保留。实则他们并不相识，更不是从小一起长大的青梅竹马。</span></p><p><span>仅仅一个下午、短短几小时的时间即可填充六千字；从小区、十字路口、Y 形路口、河渠、高中到小区的路线，是我与他真实走过的路线，虽然“Y 形路口”其实是一个“X 形路口”。情节很简单，就是久别重逢的两个人一边散步一边聊天，我希望平凡的日常可以拯救渐渐沉沦的生命，我希望渺小如尘埃般的人也能左右其他同样渺小的人的命运。</span></p><p><span>5 月 25 日是全国大学生心理健康日。</span></p><p><span>谨以此文，献给每一个在苦痛中无声挣扎的人。</span></p></div></div>
+</body>
+</html>
