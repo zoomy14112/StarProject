@@ -1,6 +1,6 @@
 ---
-title: "孤灯夜雪"
-author: "千秋星辰"
+title: 孤灯夜雪
+author: 千秋星辰
 ---
 
 
