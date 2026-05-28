@@ -4,7 +4,7 @@
 
 手写版图片下载链接为 <https://zoomy.lanzoul.com/b00pzlgszc>。
 
-点击链接下载对应格式的 《孤灯夜雪（上）》：[pdf](https://zoomy.lanzoul.com/inLQR3pm172b)、[epub](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.epub)；或是在线阅读：[pdf](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.pdf)、[html](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.html)。
+点击链接下载对应格式的 《孤灯夜雪（上）》：[pdf](https://zoomy.lanzoul.com/i5LFx3qjz6ej)、[epub](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.epub)；或是在线阅读：[pdf](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.pdf)、[html](https://zoomy14112.github.io/StarProject/Snow/release/孤灯夜雪.html)。
 
 点击链接下载对应格式的《尘》：[pdf](https://zoomy.lanzoul.com/i4mOD3qjy54h)、[epub](https://zoomy14112.github.io/StarProject/export/Dust.epub)；或是在线阅读：[pdf](https://zoomy14112.github.io/StarProject/export/Dust.pdf)、[html](https://zoomy14112.github.io/StarProject/export/Dust.html)。
 
