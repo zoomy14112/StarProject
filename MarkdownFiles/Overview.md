@@ -126,4 +126,6 @@
 
 - 2025.12 $\sim$ 2026.01 *[Restart 1](https://www.luogu.com.cn/article/f96y1qug)* ([Restart 1.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Restart%201.md) in GitHub)
 
-- 2026.01 $\sim$ ？？？ *Restart 2* ([Restart 2.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Restart%202.md) in GitHub)
+- 2026.01 $\sim$​ 2026.05 *Restart 2* ([Restart 2.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Restart%202.md) in GitHub)
+
+- 2026.05 $\sim$ ？？？ *Restart 3* ([Restart 3.md](https://github.com/zoomy14112/StarProject/tree/main/MarkdownFiles/Restart%203.md) in GitHub)
