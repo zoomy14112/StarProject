@@ -36,9 +36,13 @@
 
 ### 下篇
 
-青春期的孩子们是带有一定缺损的成年人。
+理念：青春期的孩子们是带有一定缺损的成年人。
 
 她满腔热血，带着“传道受业解惑”的热忱入职，却被冰冷的现实给以当头一棒。
+
+对照：“O Captain My Captain”的 Mr Keating、bilibili 上 [教语文的萱萱萱ww](https://space.bilibili.com/4447490)。
+
+素材来源：[知乎](https://www.zhihu.com/search?type=content&q=%E6%95%99%E5%B8%88)。
 
 她初心不改，依旧尽力指引着每一位学生（孟琦、王青虎、何宇特、杜小帅、许泽广……）。
 
