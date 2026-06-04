@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# 简化版自动 Git 提交脚本
-
 # 获取当前日期
 current_date=$(date +"%Y-%m-%d")
 
@@ -13,6 +11,9 @@ if ! git rev-parse --git-dir > /dev/null 2>&1; then
     echo "error:git respository not found."
     exit 1
 fi
+
+release
+release -u
 
 # 执行 Git 操作
 echo "execute git add..."
