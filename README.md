@@ -23,8 +23,9 @@
 - Thelema 1 : ok!
 - Thelema 2 : ok!
 - Thelema 3 : ?
-- 星海横流 : ok!
-- 涅槃 : ok!
-- [孤灯夜雪](./Snow/Outline.md) : merely ok.
+- [星海横流](./MarkdownFiles/ForLogic.md) : ok!
+- [涅槃](./MarkdownFiles/Nirvana.md) : ok!
 - [漫漫长路](./MarkdownFiles/journey.md) : to be continued.
+- [孤灯夜雪](./Snow/Outline.md) : merely ok.
 - [尘](./MarkdownFiles/Dust.md): ok!
+- [洛希极限](./MarkdownFiles/Gravitation.md): to be continued.
