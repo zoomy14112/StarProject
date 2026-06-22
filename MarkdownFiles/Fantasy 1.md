@@ -3,8 +3,6 @@
 
 幻想是什么？它可以是梦境，梦境中的虚妄或怪诞；它也可以是想象，无聊时虚构出的全新世界，以理想化世界寄托对未来的期望，或是以妖魔化的世界折射现实。幻想的特点是不真实，因而为了与试图描摹真实的我的[《星辰project》](https://www.luogu.com.cn/blog/guan-xing-ge/stars-during-lifetime)相对置，我设立[《幻想project》](https://www.luogu.com.cn/blog/guan-xing-ge/fantasy-world)用以容纳上述题材。此项目的优先级低于[《星辰project》](https://www.luogu.com.cn/blog/guan-xing-ge/stars-during-lifetime)，因而**在那之前**很少填充材料。幻想的世界总是丰富多彩，怎不引人留恋？
 
-[《三段谋略》](https://www.luogu.com.cn/blog/guan-xing-ge/organize-the-future)也可算作一个“项目”，但不会如上述两者长期更新，而是像《泰勒玛》一样的存在。
-
 ### 2024.1.9
 #### 鸡
 
@@ -206,7 +204,7 @@
 
 #### 家庭
 
-从前，有一个幸福的小男孩，他与他的母亲一同生活。
+有一个幸福的小男孩，他与他的母亲一同生活。
 
 他的父亲经常出差，每周只有一两次回家的机会；他的母亲也忙于工作，但每周至少有一天的假期。
 
