@@ -118,12 +118,18 @@
 
 我上至天堂，或下至地狱，却发现其并无区别。
 
-我与[*她*](https://www.luogu.com.cn/blog/guan-xing-ge/Mona-Lisa)在同一个班级度过了高三，[FOX_konata](https://www.luogu.com.cn/user/281668) 与 [Dale_rice](https://www.luogu.com.cn/user/932246) 在同一个班级度过了高三。
+我与[*她*](https://www.luogu.com.cn/blog/guan-xing-ge/Mona-Lisa)在同一个班级度过了高三，[FOX_konata](https://www.luogu.com.cn/user/281668) 与 [Dale_rice](https://www.luogu.com.cn/user/932246) 在同一个班级度过高中三年。
 
 无论天堂还是地狱，凡是我们所触碰到的皆为现实；天堂与地狱，不过是人间的两种滤镜。
 
-### ？
+### 2026.7.8
 
-#### 平庸之恶
+#### 盛夏与 LOI
 
-（围城）
+滚滚而来的热浪、头顶眩目的日光、空中飘荡的积云、身畔喧嚣的蝉鸣……刚刚结束梅雨期的武汉，带我回到了 2019 年的盛夏。
+
+我尚能忆起“LOI 第二军团”的成员们。想来有些可笑，当初的我会为斐波那契数列这样简单的东西而困惑，而现在的我在 xv6 操作系统内核上缝缝补补；曾经的我还在犹豫着要不要继续学下去，而现在的我已拿下 NOIP 一等奖、CCSP 银牌与 ICPC 区域赛银牌。那年夏日是最后一个无忧无虑的夏日，是我童年时光最后的回响。随着疫情的阻碍，“去一中学奥赛”的机会越发渺茫，直至彻底消散； [Loi_zxp](https://www.luogu.com.cn/user/235547) 学姐教会我线段树之后，也迎来了 NOIP 的失利与无奈退役。时间过得真快，我仿佛刚刚看到穿着校服的她在机房中走来走去，而推算下来，她现在也已经本科毕业。我们的故事总会结束，但 LOI 将一直延续。
+
+时间，错位的时间不仅是命运的小小玩笑，也可以被视为某种馈赠。在 2024 年那个与[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)离别的盛夏，无事可做也无事想做的我躺在床上，望着窗外蔫蔫的树叶，总觉得时间对我太过不公：[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)与我隔着 13 年，使我只得在一年半的高中生涯中与[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)擦肩而过；[Dale_rice](https://www.luogu.com.cn/user/932246)、[FOX_konata](https://www.luogu.com.cn/user/281668) 与我隔着 2 年，他们刚刚进入高中时我便已然退役半年，使得我无法亲历他们的竞赛生涯、难以近距离接触这两位有趣的灵魂。其实也好，正如[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)在高考前安慰我的那样，“要相信一切都是最好的安排”。或许作为高中生、大学生的[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)平平无奇，不会对我产生深刻的影响；或许退役前的我思想过于幼稚，反而不会与 [Dale_rice](https://www.luogu.com.cn/user/932246) 或是 [FOX_konata](https://www.luogu.com.cn/user/281668) 进行一些推心置腹的交流。结果一直都摆在面前，看待这份结果的角度可以十分多样；就像这错位的时间，可以是一份诅咒，也可以是一份馈赠。“要相信一切都是最好的安排”，就像“我们应当想象西西弗斯是幸福的”，重点在于“要相信”和“应当想象”。
+
+2023 年暑假的我前往机房时，与 [Dale_rice](https://www.luogu.com.cn/user/932246) 只隔着两块电脑屏幕的距离；除此之外，好像鲜有线下见面的机会。[Hywel](https://www.luogu.com.cn/user/90510) 身在英伦三岛、[FOX_konata](https://www.luogu.com.cn/user/281668) 想必无心返校，或许 2026 年盛夏的 LOI 只剩下了我和她能登上讲台。
