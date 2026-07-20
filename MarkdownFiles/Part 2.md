@@ -90,7 +90,7 @@
 
 [**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)具有极强的责任感，若非如此则无法解释[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)为何这样尽心尽力。[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)的责任感，作为教师的使命感，驱动[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)以无尽的热忱融入每一堂课。这样热烈的责任感，又何尝不是一种无私的爱呢？
 
-[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)的言行处处透露着一种温柔，一种包含着深沉的爱的温柔。作此，以铭记[魏晓雪](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)在我的高二、高三生活中的印象。
+[**她**](https://www.luogu.com.cn/blog/guan-xing-ge/luo-shen)的言行处处透露着一种温柔，一种包含着深沉的爱的温柔。作此，以铭记<span style="background-color: black; color: black; user-select: none; -webkit-user-select: none;">魏晓雪</span>在我的高二、高三生活中的印象。
 
 ### 2024.1.26
 #### 我最不理解的便是我自己
