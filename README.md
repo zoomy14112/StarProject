@@ -13,8 +13,8 @@
 ### Main Contents
 
 - Part 1 \~ 7 : OK!
-- Restart 1~ 2 : OK!
-- [Restart 3](./MarkdownFiles/Restart 3.md) : To be continued.
+- Restart 1~ 3 : OK!
+- [NewEra 1](./MarkdownFiles/NewEra 1.md) : To be continued.
 - Fantasy 1 : OK!
 - [Fantasy 2](./MarkdownFiles/Fantasy 2.md) : To be continued.
 
